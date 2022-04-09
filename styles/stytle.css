@@ -5,6 +5,11 @@ body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+a{
+    text-decoration: none;
+
+}
+
 header{
     width: 100%;
     height: 60px;
@@ -26,4 +31,23 @@ header nav{
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+}
+
+nav .nav-right-section{
+    margin-right: 20px;
+    color: #000000;
+}
+
+.menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
 }
