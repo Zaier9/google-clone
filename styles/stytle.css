@@ -7,7 +7,7 @@ body{
 
 a{
     text-decoration: none;
-
+    color: #7b899b;
 }
 
 header{
@@ -113,3 +113,62 @@ main .main-input .micro-icon{
     height: 30px;
     cursor: pointer;
 }
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #181a1b;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+    color: #7b899b;
+}
+
+main .main-buttons button:hover{
+    box-shadow: 0 1px 6px 0 #dfe1e5;
+    /* border-color: #dfe1e0; */
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #3b3b3b;
+    border-top: 1px solid #5e636e;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #7b899b;
+}
+
